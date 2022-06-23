@@ -73,7 +73,7 @@ body {
 /* ______ Base social links constructor ______ */
 
 .main-image {
-  max-width: 80%;
+  max-width: 95%;
   margin: 0 auto;
   opacity: 0.85;
   border-radius: 10px;
@@ -245,14 +245,11 @@ body {
 }
 
 .btn-contact {
-  /* padding: 20px 240px; */
-  /* max-width: 600px; */
   height: 60px;
   width: 100%;
   background-color: transparent;
   transition-duration: 250ms;
   transition-property: background-color, color;
-  /* width: 500px; */
   display: inline-block;
   max-width: 600px;
 }
