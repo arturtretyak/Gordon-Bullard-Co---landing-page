@@ -164,6 +164,7 @@ body {
   padding: 10px;
 
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
 
   background-color: #e5dfdcdf;
