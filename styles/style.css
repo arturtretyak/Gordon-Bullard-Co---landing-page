@@ -73,7 +73,7 @@ body {
 /* ______ Base social links constructor ______ */
 
 .main-image {
-  max-width: 95%;
+  max-width: 80%;
   margin: 0 auto;
   opacity: 0.85;
   border-radius: 10px;
@@ -123,6 +123,11 @@ body {
   background-position: center;
   /* min-height: 500px; */
 }
+
+.hero .container {
+  height: 500px;
+  padding: 20px 0;
+}
 /* 
 .hero .container {
   padding-top: 20px;
@@ -135,16 +140,14 @@ body {
 }
 
 .hero-text {
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 5px;
-  color: beige;
+  color: BLACK;
   padding: 20px;
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
-
-  max-width: 500px;
-  margin: 10px auto;
+  max-width: 750px;
+  font-weight: 500;
+  margin: 0 auto;
 }
 
 /* __________-MAIN_____ */
