@@ -117,11 +117,27 @@ body {
 /* ________ Header_______  */
 
 .hero {
-  background-size: cover;
-  background-image: url("../images/back-city.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  /* min-height: 500px; */
+  height: 400px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0) 95%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    center / cover no-repeat url(../images/cover.png);
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 400px;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0) 95%,
+        rgba(255, 255, 255, 1) 100%
+      ),
+      center / 250% no-repeat url(../images/cover-mob.png);
+  }
 }
 
 .hero .container {
